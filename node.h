@@ -2,7 +2,7 @@
 //  linkedlist.h
 //  LinkedList_simple
 //
-//  Created by Mingmanas Sivaraksa on 5/2/2564 BE.
+//  Created by Mingmanas Sivaraksa
 //
 
 #ifndef linkedlist_h
