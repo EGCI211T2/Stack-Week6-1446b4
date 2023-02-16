@@ -1,16 +1,24 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-#include "stack.h"
+#include "node.h"
 
 int main(int argc, char **argv){
-  printf("Checking the parentheses in argv arguments\n");
-  int i,N,j;
   
-  Stack s;
-
-
+  int i,N,j;
+  NodePtr *top;
+  
+  push(&top,5);
+  pop(&top);
+  push(&top,5);
+  push(&top,5);
  
+ 
+  
+
+ /*
+ Stack s;
+ printf("Checking the parentheses in argv arguments\n");
   for(i=1;i<argc;i++){
    
      for(j=0;j<strlen(argv[i]);j++){
@@ -21,7 +29,7 @@ int main(int argc, char **argv){
 
 
   }
-
+*/
 
 
 
